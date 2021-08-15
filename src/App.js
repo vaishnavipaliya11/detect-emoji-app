@@ -19,7 +19,7 @@ var emojiWeKnow = Object.keys(emojiDictionary);
 export default function App() {
   var [meaning, setMeaning] = useState("");
 
-  if (meaning === "undefined") {
+  if (meaning === undefined) {
     meaning = "we dont have in our database";
   }
 
